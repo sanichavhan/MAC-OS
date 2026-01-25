@@ -1,0 +1,23 @@
+import Dock from './components/Docs'
+import Nav from  './components/Nav'
+import './app.scss'
+import MacWindows from './Windows/MacWindows'
+import Github from './Windows/Github'
+import Notes from './Windows/Notes'
+import Resume from './Windows/Resume'
+import './Windows/Resume'
+function App() {
+
+  return (
+    
+      <main>
+        <Dock />
+        <Nav />
+        <Github />
+        <Notes />
+        <Resume />
+      </main>
+  )
+}
+
+export default App
