@@ -10,7 +10,6 @@
     padding-block: 0.75rem;
     border-radius: 0.5rem;
     backdrop-filter: blur(5px);
-
     .icon{
         padding: 0.5rem;
         border-radius: 0.5rem;
@@ -18,7 +17,7 @@
         align-items: center;
         justify-content: center;
         aspect-ratio: 1/1;
-        width: 3.75rem;
+        width: 3rem;
         transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
     }
     .github,
@@ -48,7 +47,7 @@
     }
 
     .icon:hover {
-        transform: scale(1.26) translateY(-20%);
+        transform: scale(1.20) translateY(-20%);
     }
 
     .icon:hover+.icon,

@@ -6,6 +6,7 @@ import Github from './Windows/Github'
 import Notes from './Windows/Notes'
 import Resume from './Windows/Resume'
 import './Windows/Resume'
+import Spotify from './Windows/Spotify'
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
         <Github />
         <Notes />
         <Resume />
+        <Spotify />
       </main>
   )
 }
