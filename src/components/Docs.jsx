@@ -12,6 +12,7 @@ const Docs = () => {
             <div className='icon pdf'><img src="icons/pdf.svg" alt="" /></div>
             <div className='icon spotify'><img src="icons/spotify.svg" alt="" /></div>
             <div className='icon spotify'><img src="icons/spotify.svg" alt="" /></div>
+            <div className='icon spotify'><img src="icons/spotify.svg" alt="" /></div>
     </footer>
   )
 }
